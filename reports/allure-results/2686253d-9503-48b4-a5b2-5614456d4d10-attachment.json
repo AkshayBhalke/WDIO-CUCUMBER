@@ -1,0 +1,15 @@
+[
+  {
+    "method": "GET",
+    "requestHeaders": {
+      "Content-Type": "application/json"
+    },
+    "requestBody": "null",
+    "url": "/api/users?page=2",
+    "__processed": 1664529888277,
+    "statusCode": 200,
+    "headers": "access-control-allow-origin: *\r\nage: 6906\r\ncache-control: max-age=14400\r\ncf-cache-status: HIT\r\ncf-ray: 752be8502c8ef442-BOM\r\ncontent-encoding: br\r\ncontent-type: application/json; charset=utf-8\r\ndate: Fri, 30 Sep 2022 09:24:46 GMT\r\netag: W/\"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw\"\r\nnel: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nreport-to: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=JiOguuqnNezdQ7TcN6ZBqOvwzmsFZdcnbiKsGvGVuo3x86V5nkfM13HfY%2FWrZdLChidB8o7JgO2upgcvAxcpMFSKBWX6Tmjgd52Dds100D%2BfWpufKFYhYGdTQg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nserver: cloudflare\r\nvary: Accept-Encoding\r\nvia: 1.1 vegur\r\nx-powered-by: Express\r\n",
+    "body": "{\"page\":2,\"per_page\":6,\"total\":12,\"total_pages\":2,\"data\":[{\"id\":7,\"email\":\"michael.lawson@reqres.in\",\"first_name\":\"Michael\",\"last_name\":\"Lawson\",\"avatar\":\"https://reqres.in/img/faces/7-image.jpg\"},{\"id\":8,\"email\":\"lindsay.ferguson@reqres.in\",\"first_name\":\"Lindsay\",\"last_name\":\"Ferguson\",\"avatar\":\"https://reqres.in/img/faces/8-image.jpg\"},{\"id\":9,\"email\":\"tobias.funke@reqres.in\",\"first_name\":\"Tobias\",\"last_name\":\"Funke\",\"avatar\":\"https://reqres.in/img/faces/9-image.jpg\"},{\"id\":10,\"email\":\"byron.fields@reqres.in\",\"first_name\":\"Byron\",\"last_name\":\"Fields\",\"avatar\":\"https://reqres.in/img/faces/10-image.jpg\"},{\"id\":11,\"email\":\"george.edwards@reqres.in\",\"first_name\":\"George\",\"last_name\":\"Edwards\",\"avatar\":\"https://reqres.in/img/faces/11-image.jpg\"},{\"id\":12,\"email\":\"rachel.howell@reqres.in\",\"first_name\":\"Rachel\",\"last_name\":\"Howell\",\"avatar\":\"https://reqres.in/img/faces/12-image.jpg\"}],\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
+    "__fulfilled": 1664529888282
+  }
+]

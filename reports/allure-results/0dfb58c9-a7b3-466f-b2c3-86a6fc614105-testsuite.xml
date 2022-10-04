@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664529884685' stop='1664529891321'>
+    <name>intercept in wdio: validating network calls</name>
+    <title>intercept in wdio: validating network calls</title>
+    <test-cases>
+        <test-case start='1664529884686' status='passed' stop='1664529884687'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529884688' status='passed' stop='1664529888135'>
+            <name>Given user visit reqress site</name>
+            <title>Given user visit reqress site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664529884694' status='passed' stop='1664529888134'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='0f4f7655-77de-42bc-b4e4-2e0811b58dcf-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529888135' status='passed' stop='1664529891320'>
+            <name>When request the get api</name>
+            <title>When request the get api</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664529888137' status='passed' stop='1664529888172'>
+                    <name>executeAsyncScript</name>
+                    <title>executeAsyncScript</title>
+                    <attachments>
+                        <attachment title='Request' source='b6fb153b-cef1-4793-bca0-46d68c754b3e-attachment.json' type='application/json' size='10692'/>
+                        <attachment title='Response' source='fe508875-5225-4ee1-8e1c-1dce66391863-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664529888175' status='passed' stop='1664529888227'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='cf774ab8-ba37-48a4-ad09-6c6ac2cb9aee-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='308296f1-b9c8-430f-b3e2-668394622992-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664529888230' status='passed' stop='1664529888278'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='d9d93a28-0fb6-4ddf-8ea4-541ae1653f30-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664529888295' status='passed' stop='1664529888315'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='552da8da-4210-4bb9-ab7b-a4bdca36957e-attachment.json' type='application/json' size='2158'/>
+                        <attachment title='Response' source='2686253d-9503-48b4-a5b2-5614456d4d10-attachment.json' type='application/json' size='2175'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529891320' status='passed' stop='1664529891320'>
+            <name>Then user get valid responce</name>
+            <title>Then user get valid responce</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529891320' status='passed' stop='1664529891320'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

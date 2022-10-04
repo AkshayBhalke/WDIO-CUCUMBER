@@ -1,0 +1,207 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664789103858' stop='1664789109097'>
+    <name>Automating for purchase scenario: Login with created user and purchase item using credit card and coupon apply</name>
+    <title>Automating for purchase scenario: Login with created user and purchase item using credit card and coupon apply</title>
+    <test-cases>
+        <test-case start='1664789103858' status='passed' stop='1664789103859'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664789103859' status='passed' stop='1664789105086'>
+            <name>Given User visit site for login</name>
+            <title>Given User visit site for login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664789103862' status='passed' stop='1664789105085'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='1c810d34-2a7d-4155-8235-dc9092d06596-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664789105086' status='passed' stop='1664789105164'>
+            <name>When User enter created user credential and click on login</name>
+            <title>When User enter created user credential and click on login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664789105094' status='passed' stop='1664789105096'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='50771291-c98f-415f-9db3-df825f225cba-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='6bd3ae4d-214b-4906-b3c2-c06f07651cbd-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789105101' status='passed' stop='1664789105104'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='65166145-1f81-4aa7-be73-933645965ff7-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789105107' status='passed' stop='1664789105126'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='4c94b5ba-3cb9-4240-bcbc-7fd5ac4676d6-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789105128' status='passed' stop='1664789105129'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='b9f24ed8-a03e-4d48-a736-60bec41d948f-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='c3e970c8-45a0-4f75-b663-de22fee9990d-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789105131' status='passed' stop='1664789105132'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='13d4c5a3-df93-44fd-aab3-b425c679117a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789105133' status='passed' stop='1664789105139'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='beb344ce-9aff-4783-8805-1dd550224cd5-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789105139' status='passed' stop='1664789105140'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='dd71ecc3-23c7-4d27-8d7a-2011d32a31de-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='cab0fdec-3a99-4b69-a72c-a95c8af19623-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789105141' status='passed' stop='1664789105163'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='d212748f-e56a-40ec-8c30-c652b9940edc-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664789105164' status='broken' stop='1664789109095'>
+            <name>Then user get user name with welcome text</name>
+            <title>Then user get user name with welcome text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664789109082' status='passed' stop='1664789109087'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='f5364fe8-a149-40f6-b4f1-d541c78c5d57-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='62e2b755-fa19-42db-ad8d-c5fd5a2bec08-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664789109091' status='passed' stop='1664789109094'>
+                    <name>getElementText</name>
+                    <title>getElementText</title>
+                    <attachments>
+                        <attachment title='Request' source='c634a428-8933-41b3-88db-558bb48964c6-attachment.json' type='application/json' size='30'/>
+                        <attachment title='Response' source='08b9c2a0-bfc2-4e9a-80f9-8abd90dee505-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: userWelComeMssg.isExisting is not a function</message>
+                <stack-trace>TypeError: userWelComeMssg.isExisting is not a function
+                    at World.&lt;anonymous> (/Users/akshay/Desktop/wdio cucumber/features/Task/steps/test.spec.js:124:25)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664789109095' status='pending' stop='1664789109096'>
+            <name>When select the product and apply coupon purchase product</name>
+            <title>When select the product and apply coupon purchase product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664789109096' status='pending' stop='1664789109096'>
+            <name>Then User get confirmation massage on page and logout</name>
+            <title>Then User get confirmation massage on page and logout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664789109096' status='passed' stop='1664789109096'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

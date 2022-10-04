@@ -1,0 +1,132 @@
+{
+  "id": {
+    "sessionId": "93c05f47-5016-4047-89b8-7cbcaefd00d4",
+    "elementId": "ELEMENT-24",
+    "element-6066-11e4-a52e-4f735466cecf": "ELEMENT-24",
+    "selector": "//div//iframe",
+    "parent": {
+      "sessionId": "93c05f47-5016-4047-89b8-7cbcaefd00d4",
+      "capabilities": {
+        "browserName": "Chrome",
+        "browserVersion": "106.0.0.0",
+        "platformName": "darwin",
+        "platformVersion": "21.6.0",
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:52551"
+        }
+      },
+      "config": {
+        "specs": [
+          "./features/**/*.feature"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "cucumber",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "./reports/allure-results/",
+              "disableWebdriverStepsReporting": false,
+              "disableWebdriverScreenshotsReporting": false
+            }
+          ]
+        ],
+        "services": [
+          "intercept"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 10000
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 60000,
+          "require": [
+            "./features/**/*.js"
+          ],
+          "backtrace": false,
+          "requireModule": [],
+          "dryRun": false,
+          "failFast": false,
+          "snippets": true,
+          "source": true,
+          "strict": false,
+          "tagExpression": "@sample",
+          "ignoreUndefinedDefinitions": false
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [
+          null
+        ],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [
+          null
+        ],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [
+          null
+        ],
+        "beforeStep": [],
+        "afterStep": [
+          null
+        ],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "http://localhost",
+        "_": [
+          "run"
+        ],
+        "cucumber-opts": {
+          "tagExpression": "@sample"
+        },
+        "$0": "/Users/akshay/Desktop/wdio cucumber/node_modules/.bin/wdio",
+        "config-path": "wdio.conf.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}

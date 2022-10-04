@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664529251063' stop='1664529260187'>
+    <name>Orange Hrm Site sample: login</name>
+    <title>Orange Hrm Site sample: login</title>
+    <test-cases>
+        <test-case start='1664529251063' status='passed' stop='1664529251064'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529251064' status='passed' stop='1664529260184'>
+            <name>Given open the login page</name>
+            <title>Given open the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1664529251066' status='passed' stop='1664529260183'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='72dcc145-7687-447e-ba3a-a06eeb3ec941-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529260184' status='broken' stop='1664529260186'>
+            <name>When enter the username and password</name>
+            <title>When enter the username and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Wrong parameters applied for takeScreenshot</message>
+                <stack-trace>Error: Wrong parameters applied for takeScreenshot
+                Usage: takeScreenshot()
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-take-screenshot
+                
+                    at validate (/Users/akshay/Desktop/wdio cucumber/node_modules/devtools/build/utils.js:33:15)
+                    at Browser.wrappedCommand (/Users/akshay/Desktop/wdio cucumber/node_modules/devtools/build/devtoolsdriver.js:124:49)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (/Users/akshay/Desktop/wdio cucumber/node_modules/@wdio/utils/build/shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664529260186' status='pending' stop='1664529260186'>
+            <name>When click on login button</name>
+            <title>When click on login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529260186' status='pending' stop='1664529260187'>
+            <name>Then user can able to see the dashboard</name>
+            <title>Then user can able to see the dashboard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664529260187' status='passed' stop='1664529260187'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-106.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

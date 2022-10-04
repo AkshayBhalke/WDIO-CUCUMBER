@@ -1,0 +1,6 @@
+Feature: date Picker functionality
+
+Scenario: date selector
+Given user visit on automationtesting Site
+When click on perticular date
+Then Selected date should be visible

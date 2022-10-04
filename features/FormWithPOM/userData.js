@@ -1,0 +1,17 @@
+module.exports = {
+  usruserid: `12${Math.round(Math.random() * 323)}83734`,
+  usrpassword: `Aksjhay@12333`,
+  usrrepass: `Aksjhay@12333`,
+  usrFirst_Name: `kiran`,
+  usrLast_Name: `srname`,
+  usrEmail: `kiran@gmail.com`,
+  usrPhone: `9096519344`,
+  usrAdd1: `benglore`,
+  usrAdd2: `bengloreknown2`,
+  usrCity: "benglore",
+  usrstae: "KARNATAKA",
+  usrzip: `532068`,
+  usrcountry: "INDIA",
+  LanguagePreference: "english",
+  FavouriteCategory: "BIRDS",
+};

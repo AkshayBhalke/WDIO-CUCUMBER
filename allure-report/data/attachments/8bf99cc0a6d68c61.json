@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"right-block\"]//a[@class=\"product-name\"]"
+}

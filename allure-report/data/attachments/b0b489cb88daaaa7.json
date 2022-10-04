@@ -1,0 +1,5 @@
+{
+  "elementId": "ELEMENT-16",
+  "using": "xpath",
+  "value": "./option[. = \"BIRDS\"]|./option[normalize-space(text()) = \"BIRDS\"]|./optgroup/option[. = \"BIRDS\"]|./optgroup/option[normalize-space(text()) = \"BIRDS\"]"
+}
